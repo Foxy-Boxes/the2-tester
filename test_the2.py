@@ -4,7 +4,7 @@ from the2 import isCovered
 class TestCovered(unittest.TestCase):
     def test_isCovered(self):
         fails =[]
-        testfails= open("fails.txt",'a')
+        testfails= open("fails.txt",'w')
         with open("proper.txt",'r') as file:
             data = file.read()
             exec(data)
