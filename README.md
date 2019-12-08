@@ -15,3 +15,7 @@ git remote add origin https://github.com/Foxy-Boxes/the2-tester.git
 git fetch
 git checkout -t origin/master
 ```
+Stay up to date:
+```shell
+git pull
+```
